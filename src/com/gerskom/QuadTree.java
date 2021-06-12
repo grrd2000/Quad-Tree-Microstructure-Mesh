@@ -5,7 +5,7 @@ import java.util.List;
 
 public class QuadTree {
 
-    final int MAX_CAPACITY = 5;
+    final int MAX_CAPACITY = 4;
     int level;
     List<Node2D> nodes;
     QuadTree northWest = null;
